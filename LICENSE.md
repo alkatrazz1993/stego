@@ -1,30 +1,3 @@
-# StegCracker
-Steganography brute-force utility to uncover hidden data inside files.
-
-## Usage
-Using stegcracker is simple, pass a file to it as it's first parameter and optionally pass the path
-to a wordlist of passwords to try as it's second parameter. If this is not set it will default to the
-rockyou.txt password file which ships with Kali Linux or can be downloaded [here](https://github.com/danielmiessler/SecLists/raw/master/Passwords/rockyou.txt.tar.gz).
-
-```
-$ stegcracker <file> [<wordlist>]
-```
-
-## 
-
-## Installation
-To install the program, follow these steps:
-
-```
-$ sudo apt-get install steghide -y
-$ sudo curl https://raw.githubusercontent.com/Paradoxis/StegCracker/master/stegcracker > /bin/stegcracker
-$ sudo chmod +x /bin/stegcracker
-```
-
-## Example
-![demo](stegcracker.gif)
-
-## License
 Copyright 2017 - Luke Paris (Paradoxis)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, 
